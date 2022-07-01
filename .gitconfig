@@ -1,0 +1,7 @@
+[user]
+	name = Meet Patel
+	email = meet@meetpatel.xyz
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
