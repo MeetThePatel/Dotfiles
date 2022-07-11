@@ -33,34 +33,28 @@ font:
 
 draw_bold_text_with_bright_colors: true
 
-# Ayu Dark
 colors:
-  # Default colors
   primary:
-    background: '0x0f1419'
-    foreground: '0xe6e1cf'
-
-  # Normal colors
+    background: '#151515'
+    foreground: '#d0d0d0'
   normal:
-    black:   '0x000000'
-    red:     '0xf34a4a'
-    green:   '0xbae67e'
-    yellow:  '0xffee99'
-    blue:    '0x73d0ff'
-    magenta: '0xd4bfff'
-    cyan:    '0x83CEC6'
-    white:   '0xf2f2f2'
-
-  # Bright colors
+    black:   '#151515'
+    red:     '#ac4142'
+    green:   '#90a959'
+    yellow:  '#f4bf75'
+    blue:    '#6a9fb5'
+    magenta: '#aa759f'
+    cyan:    '#75b5aa'
+    white:   '#d0d0d0'
   bright:
-    black:   '0x737d87'
-    red:     '0xff3333'
-    green:   '0xc2d94c'
-    yellow:  '0xe7c547'
-    blue:    '0x59c2ff'
-    magenta: '0xb77ee0'
-    cyan:    '0x5ccfe6'
-    white:   '0xffffff'
+    black:   '#505050'
+    red:     '#ac4142'
+    green:   '#90a959'
+    yellow:  '#f4bf75'
+    blue:    '#6a9fb5'
+    magenta: '#aa759f'
+    cyan:    '#75b5aa'
+    white:   '#f5f5f5'
 
 cursor:
   style: Block

@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="sorin" # set by `omz`
+#
+ZSH_THEME="tbdzt"
 
 plugins=(
 	git
@@ -40,3 +41,5 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 # opam configuration
 [[ ! -r /Users/meet/.opam/opam-init/init.zsh ]] || source /Users/meet/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+
+export MODIN_ENGINE="ray"
